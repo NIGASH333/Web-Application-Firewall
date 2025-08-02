@@ -6,7 +6,6 @@ In addition to signature-based detection, it uses **machine learning-based anoma
 
 ## **How it works**
 
-![WAF Flow](./Hybrid%20WAF_files/WAF%20flow.jpg)
 
 
 ## Features
@@ -18,23 +17,6 @@ In addition to signature-based detection, it uses **machine learning-based anoma
 - 📊 Interactive Security Insights
 - 🚀 Fast response time
 
-
-##  Output Screenshots
-
-<p float="left">
-    <img src="./output-screenshots/waf-ss1.png" width="400"/>
-    <img src="./output-screenshots/waf-ss2.png" width="400"/>
-</p>
-
-<p float="left">
-    <img src="./output-screenshots/waf-ss3.png" width="400"/>
-    <img src="./output-screenshots/waf-ss4.png" width="400"/>
-</p>
-
-<p float="left">
-    <img src="./output-screenshots/waf-ss5.png" width="400"/>
-    <img src="./output-screenshots/waf-ss6.png" width="400"/>
-</p>
 
 
 ## Tech Stack
@@ -135,7 +117,6 @@ Host: www.example.com
 1. Clone the repository:
 ```bash
 git clone https://github.com/NIGASH333/Advance-WebApplication-Firewall.git
-cd Advanced-WAF-WAFinity
 ```
 
 2. Install dependencies:
@@ -155,7 +136,7 @@ python app.py
 3. Click "New +" → "Web Service"
 4. Connect your GitHub repository
 5. Configure:
-   - **Name**: `wafinity-waf`
+   - **Name**: `Infinity`
    - **Environment**: `Python 3`
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `gunicorn app:app`
