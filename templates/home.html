@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WAFinity - Request Checker</title>
+    
+    <!-- Open Graph Meta Tags for LinkedIn -->
+    <meta property="og:title" content="WAFinity - AI-Powered Web Security">
+    <meta property="og:description" content="Advanced Web Application Firewall with AI-powered threat detection. Test and analyze web requests for security threats in real-time.">
+    <meta property="og:image" content="{{ url_for('static', filename='waf.jpeg', _external=True) }}">
+    <meta property="og:url" content="{{ request.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Infinity WAF">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="WAFinity - AI-Powered Web Security">
+    <meta name="twitter:description" content="Advanced Web Application Firewall with AI-powered threat detection. Test and analyze web requests for security threats in real-time.">
+    <meta name="twitter:image" content="{{ url_for('static', filename='waf.jpeg', _external=True) }}">
+    
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <style>
         .checker-section {
